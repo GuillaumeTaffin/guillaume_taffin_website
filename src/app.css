@@ -1,0 +1,25 @@
+@import "@fontsource/kalam";
+@import "@fontsource/quicksand";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*Color Palette*/
+:root {
+    --international-orange-aerospace: #FE5D26;
+    --eggshell: #F4F1DE;
+    --independence: #3D405B;
+    --green-sheen: #81B29A;
+    --deep-champagne: #F2CC8F;
+}
+
+* {
+    font-family: "Quicksand", sans-serif;
+    color: var(--independence);
+}
+
+.handwritten {
+    font-family: "Kalam", cursive;
+}
